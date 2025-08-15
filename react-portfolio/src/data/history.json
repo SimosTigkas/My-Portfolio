@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Software Development Student",
+    "organisation": "Hive",
+    "startDate": "Oct, 2023",
+    "endDate": "July, 2025",
+    "experiences": ["Frontend development with Bootstrap", "Created 2D fractals"],
+    "imageSrc": "history/hive.png"
+  },
+  {
+    "role": "Learn UI Design Student",
+    "organisation": "Scrimba",
+    "startDate": "June, 2025",
+    "endDate": "June, 2025",
+    "experiences": ["Learned the UI Design principles", "Explored advanced design techniques", "Designed interfaces that adapt seamlessly across mobile, tablet and desktop screens"],
+    "imageSrc": "history/scrimba.png"
+  },
+  {
+    "role": "Learn TypeScript Student",
+    "organisation": "Scrimba",
+    "startDate": "July, 2025",
+    "endDate": "July, 2025",
+    "experiences": [
+      "Learned TypeScript fundamentals",
+      "Typed props, state and functions in React"
+    ],
+    "imageSrc": "history/scrimba.png"
+  }
+]
