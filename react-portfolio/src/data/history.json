@@ -4,7 +4,7 @@
     "organisation": "Hive",
     "startDate": "Oct, 2023",
     "endDate": "July, 2025",
-    "experiences": ["Frontend development with Bootstrap", "Created 2D fractals"],
+    "experiences": ["Frontend development with Bootstrap", "Web-app accessibility enhancements for visually impaired users", "Created 2D fractals", "Built my own IRC server"],
     "imageSrc": "history/hive.png"
   },
   {
@@ -25,5 +25,18 @@
       "Typed props, state and functions in React"
     ],
     "imageSrc": "history/scrimba.png"
+  },
+  {
+    "role": "BSc in Mathematics",
+    "organisation": "University of Patras (Greece)",
+    "startDate": "Oct, 2015",
+    "endDate": "Sept, 2021",
+    "experiences": [
+      "Object-oriented programming using C++",
+      "Mathematical Foundations of the Theory of Computation",
+      "Programming with Python",
+      "Data Structures and Algorithms"
+    ],
+    "imageSrc": "history/math.png"
   }
 ]
