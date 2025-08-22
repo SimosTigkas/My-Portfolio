@@ -38,7 +38,7 @@ export const Navbar = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
     return (<nav className={styles.navbar}>
-        <a className={`${styles.title} ${activeSection === "home" ? styles.active : ""}`} href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" });}}>
+        <a className={`${styles.title} ${activeSection === "home" ? styles.active : ""}`} href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); window.history.pushState(null, "", "#home");}}>
             <AiOutlineHome />
         </a>
         <div className={styles.menu}>
