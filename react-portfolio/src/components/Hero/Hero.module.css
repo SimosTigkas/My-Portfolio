@@ -22,7 +22,7 @@
 .title {
     font-size: 72px;
     font-weight: 900;
-    margin-bottom: 33px;
+    margin-top: 10px;
     font-family: var(--font-roboto);
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 120%);
     -webkit-text-fill-color: transparent;
@@ -104,7 +104,19 @@
     .container {
         flex-direction: column-reverse;
     }
+
     .content {
         align-items: center;;
+    }
+
+    .title {
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+
+    .description {
+        text-align: center;
+        top: 10px;
     }
 }
