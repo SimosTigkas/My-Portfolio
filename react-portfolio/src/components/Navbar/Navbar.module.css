@@ -1,24 +1,33 @@
 @import "../../vars.css";
 
 .navbar {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 61px;
+    background: #19376d;
+    background: linear-gradient(90deg, #19376d 0%,rgba(25, 55, 109, 0) 130%);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
     z-index: 2;
-    margin: 0 10%;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0.6rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(5px);
 }
 
 .title {
     font-size: 30px;
     font-weight: 600;
-    text-decoration: none;
+    /* text-decoration: none; */
     color: var(--color-text);
+    margin-right: 25px;
 }
 
 .menu {
     display: flex;
+    align-items: center;
 }
 
 .menuBtn {
@@ -26,16 +35,26 @@
     cursor: pointer;
 }
 
+.title:hover {
+    color: hsl(39, 100%, 45%);
+}
+
 .menuItems {
     display: flex;
     gap: 47px;
     list-style: none;
+    align-items: center;
+    /* margin-left: 30px; */
 }
 
 .menuItems a {
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
+}
+
+.menuItems a:hover {
+    color: hsl(39, 100%, 45%);
 }
 
 @media screen and (max-width: 830px) {
