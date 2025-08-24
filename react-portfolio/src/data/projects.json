@@ -17,10 +17,10 @@
   },
   {
     "title": "2D Fractals",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/fractals.png",
     "description": "In this project I created mesmerizing fractals, including the Julia set, Mandelbrot set and the Burning Ship set. Additionally, it allowed me to combine mathematics with computer graphics and develop a deeper appreciation for visual programming.",
     "skills": ["C", "Makefile", "Graphics"],
-    "demo": "https://www.example.com",
+    "demo": "assets/projects/fractals.mp4",
     "source": "https://github.com/SimosTigkas/2D-Fractals"
   }
 ]
