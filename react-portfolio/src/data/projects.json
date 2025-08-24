@@ -2,23 +2,23 @@
   {
     "title": "The Transcenders",
     "imageSrc": "projects/final/TheTranscenders.png",
-    "description": "I refined my frontend skills by building responsive and interactive interfaces from scratch. I learned how to handle dynamic updates and create a smooth, user-friendly experience. This project sharpened my problem-solving skills by pushing me to optimize performance as well.",
-    "skills": ["Bootstrap", "JS", "CSS", "HTML"],
+    "description": "I refined my frontend skills by building responsive and interactive interfaces from scratch. I learned how to handle dynamic updates and create a smooth, user-friendly experience. This project also sharpened my problem-solving skills by pushing me to optimize performance.",
+    "skills": ["Bootstrap", "CSS", "JavaScript", "HTML"],
     "demo": "https://www.example.com",
     "source": "https://github.com/SimosTigkas/ThetTranscenders"
   },
   {
     "title": "UI-Design Training",
     "imageSrc": "projects/UIdesignTraining.png",
-    "description": "I learned how to create functional and visually appealing user interfaces by using HTML, CSS and by having the core UI design principles in mind. I built responsive layouts with images and adaptive navigation, while enhancing interactivity through animations, shadows and gradients, too.",
-    "skills": ["CSS", "HTML", "JS"],
+    "description": "I created functional and visually appealing user interfaces by using HTML, CSS and by having the core UI design principles in mind. I built responsive layouts with images and adaptive navigation, while enhancing interactivity through gradients and animations.",
+    "skills": ["CSS", "HTML", "JavaScript"],
     "demo": "assets/projects/UIdesignTraining.mp4",
     "source": "https://github.com/SimosTigkas/UI-Design-training"
   },
   {
     "title": "2D Fractals",
     "imageSrc": "projects/fractals.png",
-    "description": "In this project I created mesmerizing fractals, including the Julia set, Mandelbrot set and the Burning Ship set. Additionally, it allowed me to combine mathematics with computer graphics and develop a deeper appreciation for visual programming.",
+    "description": "In this project I created mesmerizing fractals, including the Julia, Mandelbrot and the Burning Ship sets. Also, it allowed me to combine mathematics with computer graphics and develop a deeper appreciation for visual programming.",
     "skills": ["C", "Makefile", "Graphics"],
     "demo": "assets/fractals.mp4",
     "source": "https://github.com/SimosTigkas/2D-Fractals"
