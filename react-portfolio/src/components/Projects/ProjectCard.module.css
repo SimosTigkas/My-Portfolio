@@ -113,3 +113,11 @@
 .closeBtn:hover {
     background-color: hsl(39, 100%, 45%);
 }
+
+@media screen and (max-width: 1180px) {
+    
+}
+
+@media screen and (max-width: 550px) {
+    
+}
