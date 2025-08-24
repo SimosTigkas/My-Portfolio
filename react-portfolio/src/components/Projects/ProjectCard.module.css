@@ -12,7 +12,9 @@
 
 .image {
     margin-bottom: 26px;
-    height: auto;
+    height: 200px;
+    width: 298px;
+    object-fit: cover;
     border-radius: 15px;
     opacity: 0.9;
 }
