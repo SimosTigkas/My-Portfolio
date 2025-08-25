@@ -12,7 +12,7 @@
     "imageSrc": "projects/UIdesignTraining.png",
     "description": "I created functional and visually appealing user interfaces by using HTML, CSS and by having the core UI design principles in mind. I built responsive layouts with images and adaptive navigation, while enhancing interactivity through gradients and animations.",
     "skills": ["CSS", "HTML", "JavaScript"],
-    "demo": "assets/projects/UIdesignTraining.mp4",
+    "demo": "assets/projects/UiDesignTraining.mp4",
     "source": "https://github.com/SimosTigkas/UI-Design-training"
   },
   {
@@ -20,7 +20,7 @@
     "imageSrc": "projects/fractals.png",
     "description": "In this project I created mesmerizing fractals, including the Julia, Mandelbrot and the Burning Ship sets. Also, it allowed me to combine mathematics with computer graphics and develop a deeper appreciation for visual programming.",
     "skills": ["C", "Makefile", "Graphics"],
-    "demo": "assets/projects/fractals.mp4",
+    "demo": "assets/projects/Fractals.mp4",
     "source": "https://github.com/SimosTigkas/2D-Fractals"
   }
 ]
