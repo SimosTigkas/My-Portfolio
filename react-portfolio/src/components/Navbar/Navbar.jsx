@@ -38,9 +38,6 @@ export const Navbar = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
     return (<nav className={styles.navbar}>
-        <a className={`${styles.title} ${activeSection === "home" ? styles.active : ""}`} href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); window.history.pushState(null, "", "#home");}}>
-            <AiOutlineHome />
-        </a>
         <div className={styles.menu}>
             <img className={styles.menuBtn} src={
                 menuOpen
@@ -49,7 +46,13 @@ export const Navbar = () => {
                 alt="menu-button"
                 onClick = {() => setMenuOpen(!menuOpen)}
             />
-            <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
+            <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`} onClick={() => setMenuOpen(false)}>
+                <li>
+                    <a className={activeSection === "home" ? styles.active : ""} href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); window.history.pushState(null, "", "#home");}}>
+                    <AiOutlineHome />
+                    </a>
+                </li>
+                
                 <li>
                     <a href="#about" className={activeSection === "about" ? styles.active : ""}>
                     <AiOutlineUser/>

@@ -1,13 +1,16 @@
 @import "../../vars.css";
 
 .container {
-    margin-top: 76px;
+    margin-top: 109px;
     color: var(--color-text);
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .title {
+    top: 10px;
+    margin-left: 45px;
+    position: relative;
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;

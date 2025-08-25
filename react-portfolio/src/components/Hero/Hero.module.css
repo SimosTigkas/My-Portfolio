@@ -69,7 +69,7 @@
 }
 
 .heroImg {
-    width: 50%;
+    width: 40%;
     animation-name: floating;
     z-index: 1;
     animation-duration: 5s;
@@ -117,27 +117,6 @@
     z-index: 0;
 }
 
-/* @media screen and (max-width:830px) {
-    .container {
-        flex-direction: column-reverse;
-    }
-
-    .content {
-        align-items: center;
-    }
-
-    .title {
-        font-size: 40px;
-        margin-bottom: 20px;
-        margin-top: 15px;
-    }
-
-    .description {
-        text-align: center;
-        top: 10px;
-    }
-} */
-
 @media screen and (max-width: 1180px) {
     .container {
         flex-direction: column-reverse;
@@ -161,8 +140,8 @@
     }
 
     .heroImg {
-        width: 70%;
-        max-width: 400px;
+        width: 40%;
+        max-width: 300px;
     }
 
     .contactBtn,
@@ -174,7 +153,7 @@
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
     .title {
         font-size: 26px;
     }
@@ -184,7 +163,7 @@
     }
 
     .heroImg {
-        width: 90%;
+        width: 40%;
         max-width: 300px;
     }
 

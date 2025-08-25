@@ -2,12 +2,15 @@
 
 .container {
     color: var(--color-text);
-    margin-top: 79px;
+    margin-top: 109px;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .title {
+    position: relative;
+    top: 15px;
+    margin-left: 45px;
     margin-bottom: 79px;
     color: var(--color-text);
     font-size: 35px;
