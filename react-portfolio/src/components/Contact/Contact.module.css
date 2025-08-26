@@ -69,9 +69,16 @@
     .text h2, p {
         align-self: flex-start;
     }
+    .text h2{
+        font-size: 70px;
+        margin-top: -15px;
+    }
+    .text p {
+        font-size: 35px;
+    }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 460px) {
     .text h2 {
         font-size: 60px;
         margin-top: -15px;
@@ -82,9 +89,15 @@
         align-self: center;
     }
     .link a {
-        width: fit-content;
+        width: 100%;
+        word-wrap: break-word;
+        overflow-wrap: anywhere;
+        text-align: left;
+    }
+    .link {
+        gap: 15px;
     }
     .container {
-        padding: 28px 5%;
+        padding: 20px 2%;
     }
 }
