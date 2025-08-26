@@ -28,11 +28,11 @@
     width: 100%;
 }
 
-@media screen and (max-width: 1180px) {
-    
-}
-
-@media screen and (max-width: 550px) {
-    
+@media screen and (max-width: 650px) {
+    .title {
+        margin-left: 0;
+        text-align: center;
+        font-size: 28px;
+    }
 }
 

@@ -71,3 +71,11 @@
         margin-top: 29px;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .title {
+        margin-left: 0;
+        text-align: center;
+        font-size: 28px;
+    }
+}
