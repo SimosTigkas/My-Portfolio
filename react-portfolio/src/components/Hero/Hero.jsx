@@ -7,7 +7,7 @@ export const Hero = () => {
     return <section className={styles.container}>
         <div className={styles.content}>
             <h1 className={styles.title}>Hi, I'm Simos!!</h1>
-            <p className={styles.description}>I'm a frontend developer with a passion for UI/UX design. I love turning ideas into interactive experiences and I’m excited to bring that creativity to my next project.</p>
+            <p className={styles.description}>A frontend developer with a passion for UI/UX design. I love turning ideas into interactive experiences and I’m excited to bring that creativity to my next project.</p>
             <a href={CV} className={styles.resumeBtn} download>Download CV</a>
             <a href="#contact" className={styles.contactBtn}>Contact me</a>
         </div>
