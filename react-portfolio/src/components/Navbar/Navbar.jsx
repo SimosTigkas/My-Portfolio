@@ -2,10 +2,9 @@ import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import styles from '../Navbar/Navbar.module.css';
-import {getImageUrl} from "../../utils";
 import {AiOutlineHome} from "react-icons/ai";
-import {AiOutlineUser} from "react-icons/ai";
-import {BiBook} from "react-icons/bi";
+import { TbUserSquare } from "react-icons/tb";
+import { FiBookOpen } from "react-icons/fi";
 import { GoProjectSymlink } from "react-icons/go";
 import { LuMessageSquareText } from "react-icons/lu";
 
@@ -15,9 +14,7 @@ export const Navbar = () => {
     useEffect(() => {
         const handleScroll = () => {
         const sections = ["home", "about", "experience", "projects", "contact"];
-        let current = "home";
-
-        if (window.scrollY > 100) {
+        let current = "null";
         sections.forEach((id) => {
             const section = document.getElementById(id);
             if (section) {
@@ -27,9 +24,11 @@ export const Navbar = () => {
             }
             }
         });
+        if (window.scrollY < 100)
+            current = "home";
         if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 50)
             current = "contact";
-        }
+        
         setActiveSection(current);
         };
 
@@ -39,38 +38,30 @@ export const Navbar = () => {
     }, []);
     return (<nav className={styles.navbar}>
         <div className={styles.menu}>
-            <img className={styles.menuBtn} src={
-                menuOpen
-                    ? getImageUrl("nav/closeIcon.png") 
-                    : getImageUrl("nav/menuIcon.png")}
-                alt="menu-button"
-                onClick = {() => setMenuOpen(!menuOpen)}
-            />
             <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`} onClick={() => setMenuOpen(false)}>
                 <li>
-                    <a className={activeSection === "home" ? styles.active : ""} href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); window.history.pushState(null, "", "#home");}}>
-                    <AiOutlineHome />
+                    <a className={activeSection === "home" ? styles.active : ""} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} role="button">
+                    <AiOutlineHome size={25}/>
                     </a>
                 </li>
-                
                 <li>
                     <a href="#about" className={activeSection === "about" ? styles.active : ""}>
-                    <AiOutlineUser/>
+                    <TbUserSquare  size={25}/>
                     </a>
                 </li>
                 <li>
                     <a href="#experience" className={activeSection === "experience" ? styles.active : ""}>
-                    <BiBook/>
+                    <FiBookOpen size={25}/>
                     </a>
                 </li>
                 <li>
                     <a href="#projects" className={activeSection === "projects" ? styles.active : ""}>
-                    <GoProjectSymlink/>
+                    <GoProjectSymlink size={25}/>
                     </a>
                 </li>
                 <li>
                     <a href="#contact" className={activeSection === "contact" ? styles.active : ""}>
-                    <LuMessageSquareText/>
+                    <LuMessageSquareText size={25}/>
                     </a>
                 </li>
             </ul>

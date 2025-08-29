@@ -1,27 +1,30 @@
 @import "../../vars.css";
 
 .container {
+    position: relative;
     color: var(--color-text);
-    margin-top: 120px;
+    margin: 10% auto;
     background-color: var(--color-secondary);
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 100vw;
-    padding: 58px 10%;
-    gap: 10px;
+    justify-content: space-between;
+    width: 68vw;
+    padding: 2%;
+    gap: 40px;
+    border-radius: 15px;
 }
 
 .text h2 {
-    font-size: 80px;
+    font-size: 35px;
     font-weight: 700;
-    letter-spacing: 4px;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
 }
 
 .text p {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .links {
@@ -30,6 +33,7 @@
     align-items: flex-start;
     list-style: none;
     gap: 26px;
+    font-size: 35px;
 }
 
 .link {
@@ -41,7 +45,7 @@
 .link a {
     color: var(--color-text);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     letter-spacing: 1.5px;
 }
@@ -50,7 +54,7 @@
     color: hsl(39, 100%, 45%);
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 890px) {
     .container {
         flex-direction: column;
         gap: 23px;
@@ -61,36 +65,50 @@
         display: flex;
         flex-direction: column;
     }
-    
+    .link a {
+        display: block;
+        white-space: normal;
+        word-break: break-word;
+        width: 100%;
+        /* word-wrap: break-word; */
+        overflow-wrap: anywhere;
+        text-align: left;
+    }
     .links {
         align-items: flex-start;
+        margin-left: 0;
     }
 
     .text h2, p {
         align-self: flex-start;
     }
     .text h2{
-        font-size: 70px;
+        font-size: 30px;
         margin-top: -15px;
     }
     .text p {
-        font-size: 35px;
+        font-size: 25px;
     }
 }
 
 @media screen and (max-width: 460px) {
     .text h2 {
-        font-size: 60px;
+        font-size: 25px;
         margin-top: -15px;
         align-self: center;
+        margin-right: 0;
     }
     .text p {
-        font-size: 30px;
+        margin-right:0;
+        font-size: 20px;
         align-self: center;
     }
     .link a {
+        display: block;
+        white-space: normal;
+        word-break: break-word;
         width: 100%;
-        word-wrap: break-word;
+        /* word-wrap: break-word; */
         overflow-wrap: anywhere;
         text-align: left;
     }
@@ -98,6 +116,8 @@
         gap: 15px;
     }
     .container {
-        padding: 20px 2%;
+        width:92%;
+        padding: 20px 5%;
+        box-sizing: border-box;
     }
 }

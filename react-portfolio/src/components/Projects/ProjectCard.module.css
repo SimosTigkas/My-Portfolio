@@ -8,6 +8,14 @@
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px;
     max-width: 345px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 4px 5px 0px whitesmoke;
+    cursor: pointer;
 }
 
 .image {
@@ -26,9 +34,9 @@
 
 .description {
     margin-top: 6px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
-    height: 352px;
+    height: 252px;
     width: 297px;
 }
 
@@ -37,20 +45,22 @@
     margin-top: 14px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     gap: 6px;
     list-style: none;
 }
 
 .skill {
-    font-size: 25px;
-    font-weight: 400;
+    align-self: center;
+    font-size: 15px;
+    font-weight: 300;
     border-radius: 100px;
     background: var(--color-dark);
-    padding: 2px 22px;
+    padding: 2px 12px;
+    text-align: center;
 }
 
-.links {
+/* .links {
     width: 100%;
     margin-top: 26px;
     display: flex;
@@ -112,12 +122,4 @@
 
 .closeBtn:hover {
     background-color: hsl(39, 100%, 45%);
-}
-
-@media screen and (max-width: 1180px) {
-    
-}
-
-@media screen and (max-width: 550px) {
-    
-}
+} */

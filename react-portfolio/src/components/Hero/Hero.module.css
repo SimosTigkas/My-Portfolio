@@ -69,7 +69,7 @@
 }
 
 .heroImg {
-    width: 40%;
+    width: 30%;
     animation-name: floating;
     z-index: 1;
     animation-duration: 5s;
@@ -140,7 +140,7 @@
     }
 
     .heroImg {
-        width: 40%;
+        width: 30%;
         max-width: 300px;
     }
 
@@ -163,7 +163,7 @@
     }
 
     .heroImg {
-        width: 40%;
+        width: 30%;
         max-width: 300px;
     }
 

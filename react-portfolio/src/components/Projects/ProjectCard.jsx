@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { getImageUrl } from "../../utils";
 import styles from "./ProjectCard.module.css";
 
 export const ProjectCard = ({ project }) => {
-    const [showVideo, setShowVideo] = useState(false);
+    // const [showVideo, setShowVideo] = useState(false);
+    const handleRedirect = () => {
+        window.open(project.source, "_blank");
+    };
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container} onClick={handleRedirect} role="button" tabIndex={0} onKeyDown={(e) => e.key === "Enter" && handleRedirect()}>
             <img src={getImageUrl(project.imageSrc)} alt={`image of ${project.title}`} className={styles.image}/>
             <h3 className={styles.title}>{project.title}</h3>
             <p className={styles.description}>{project.description}</p>
@@ -15,10 +18,8 @@ export const ProjectCard = ({ project }) => {
                     <li key={id} className={styles.skill}>{skill}</li>
                 ))}
             </ul>
-
-            <div className={styles.links}>
-                <button className={styles.link} onClick={() => setShowVideo(true)}> Demo </button>
-                <a href={project.source} className={styles.link}>Source</a>
+            {/* <div className={styles.links}>
+                <button className={styles.link} onClick={(e) => {e.stopPropagation(); setShowVideo(true);}}> Demo </button>
             </div>
             {showVideo && (
                 <div className={styles.videoOverlay}>
@@ -32,7 +33,7 @@ export const ProjectCard = ({ project }) => {
                         </button>
                     </div>
                 </div>
-            )}
+            )} */}
         </div>
     );
 };
