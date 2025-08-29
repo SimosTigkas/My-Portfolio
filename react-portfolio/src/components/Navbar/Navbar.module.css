@@ -52,10 +52,8 @@
   color: var(--color-text);
   text-decoration: none;
   display: flex;
-  align-items: center;  /* centers the SVG inside */
+  align-items: center;
   justify-content: center;
-  /* height: 40px;
-  width: 40px; */
 }
 
 .menuItems a:hover {

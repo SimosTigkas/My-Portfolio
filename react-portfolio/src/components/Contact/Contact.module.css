@@ -3,15 +3,18 @@
 .container {
     position: relative;
     color: var(--color-text);
-    margin: 10% auto;
+    margin: 5% auto;
     background-color: var(--color-secondary);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     justify-content: space-between;
-    width: 68vw;
-    padding: 2%;
+    padding: 1% 2%;
     gap: 40px;
     border-radius: 15px;
+    width: 20%;
+    box-sizing: border-box;
 }
 
 .text h2 {
@@ -29,8 +32,8 @@
 
 .links {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items:center;
     list-style: none;
     gap: 26px;
     font-size: 35px;
@@ -39,85 +42,80 @@
 .link {
     display: flex;
     align-items: center;
-    gap: 25px;
+    justify-content: space-evenly;
+    vertical-align: middle;
 }
 
-.link a {
+.links li a {
+    background: var(--color-dark);
+    border-radius: 45px;
     color: var(--color-text);
     text-decoration: none;
-    font-size: 25px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
+    display: flex;
+    vertical-align: middle;
+    height: 3.5rem;
+    width: 3.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.link a:hover {
-    color: hsl(39, 100%, 45%);
+.links li a:hover {
+    background-color: hsl(39, 100%, 45%);
+    border-radius: 45px;
+    transform: scale(1.2);
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 1190px) {
     .container {
         flex-direction: column;
-        gap: 23px;
-        padding: 58px 5%;
-    }
-    
-    .text {
-        display: flex;
-        flex-direction: column;
-    }
-    .link a {
-        display: block;
-        white-space: normal;
-        word-break: break-word;
-        width: 100%;
-        /* word-wrap: break-word; */
-        overflow-wrap: anywhere;
-        text-align: left;
+        align-items: center;
+        gap: 25px;
+        padding: 5%;
+        width: 30%;
+        min-width: 211px;
     }
     .links {
-        align-items: flex-start;
-        margin-left: 0;
+        flex-direction: row;
+        justify-content: center;
+        gap: 16px;
     }
-
-    .text h2, p {
-        align-self: flex-start;
+    .links li a {
+        height: 3rem;
+        width: 3rem;
     }
     .text h2{
         font-size: 30px;
         margin-top: -15px;
+        text-align: center;
     }
     .text p {
         font-size: 25px;
+        text-align: center;
     }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 575px) {
+    .container {
+        padding: 20px 5%;
+        width:45%;
+        gap:15px;
+        min-width: 200px;
+    }
     .text h2 {
-        font-size: 25px;
+        font-size: 20px;
         margin-top: -15px;
-        align-self: center;
-        margin-right: 0;
+        text-align: center;
     }
     .text p {
-        margin-right:0;
-        font-size: 20px;
-        align-self: center;
+        font-size: 15px;
+        text-align: center;
     }
-    .link a {
-        display: block;
-        white-space: normal;
-        word-break: break-word;
-        width: 100%;
-        /* word-wrap: break-word; */
-        overflow-wrap: anywhere;
-        text-align: left;
+    .links {
+        flex-direction: row;
+        gap: 12px;
+        justify-content: center;
     }
-    .link {
-        gap: 15px;
-    }
-    .container {
-        width:92%;
-        padding: 20px 5%;
-        box-sizing: border-box;
+    .links li a {
+        height: 3rem;
+        width: 3rem;
     }
 }
