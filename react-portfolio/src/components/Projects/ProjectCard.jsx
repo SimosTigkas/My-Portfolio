@@ -47,13 +47,7 @@ export const ProjectCard = ({ project }) => {
               alt={`cover for ${project.title}`}
               className={styles.coverImage}
             />
-            <button
-              className={styles.playButton}
-              onClick={handlePlay}
-              aria-label="Play demo video"
-            >
-            ▶
-            </button>
+            <button className={styles.playButton} onClick={handlePlay} aria-label="Play demo video">▶</button>
           </>
         )}
       </div>
