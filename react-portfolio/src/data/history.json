@@ -1,5 +1,6 @@
 [
   {
+    "intro": "https://www.hive.fi/en/",
     "role": "Software Development Student",
     "organisation": "Hive",
     "startDate": "Oct, 2023",
@@ -8,6 +9,7 @@
     "imageSrc": "history/hive.png"
   },
   {
+    "intro": "https://scrimba.com/courses",
     "role": "Learn UI Design Student",
     "organisation": "Scrimba",
     "startDate": "June, 2025",
@@ -16,26 +18,21 @@
     "imageSrc": "history/scrimba.png"
   },
   {
+    "intro": "https://scrimba.com/courses",
     "role": "Learn TypeScript Student",
     "organisation": "Scrimba",
     "startDate": "July, 2025",
     "endDate": "July, 2025",
-    "experiences": [
-      "Learned TypeScript fundamentals",
-      "Typed props, state and functions in React"
-    ],
+    "experiences": ["Learned TypeScript fundamentals", "Typed props, state and functions in React"],
     "imageSrc": "history/scrimba.png"
   },
   {
+    "intro": "https://www.math.upatras.gr/en/",
     "role": "BSc in Mathematics",
     "organisation": "University of Patras (Greece)",
     "startDate": "Oct, 2015",
     "endDate": "Sept, 2021",
-    "experiences": [
-      "Object-oriented programming using C++",
-      "Programming with Python",
-      "Data Structures and Algorithms"
-    ],
+    "experiences": ["Object-oriented programming using C++", "Programming with Python", "Data Structures and Algorithms"],
     "imageSrc": "history/math.png"
   }
 ]

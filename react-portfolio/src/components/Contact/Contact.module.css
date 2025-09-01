@@ -15,6 +15,17 @@
     border-radius: 15px;
     width: 50%;
     box-sizing: border-box;
+    transition: transform 0.4s ease-in-out;
+}
+
+.container:target {
+    animation: scalePulse 2.5s ease;
+}
+
+@keyframes scalePulse {
+  0% { transform: scale(1);}
+  50% { transform: scale(1.06); box-shadow: 0px 4px 5px 0px gray;}
+  100% { transform: scale(1);}
 }
 
 .container:hover {
@@ -25,14 +36,14 @@
 }
 
 .text h2 {
-    font-size: 35px;
+    font-size: 33px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
 }
 
 .text p {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -108,7 +119,7 @@
         min-width: 200px;
     }
     .text h2 {
-        font-size: 20px;
+        font-size: 17px;
         margin-top: -15px;
         text-align: center;
     }
