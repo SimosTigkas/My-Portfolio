@@ -4,7 +4,7 @@
     "imageSrc": "projects/TheTranscenders.png",
     "description": "I refined my frontend skills by building responsive and interactive interfaces from scratch. I learned how to handle dynamic updates and create a smooth, user-friendly experience. This project also sharpened my problem-solving skills by pushing me to optimize performance.",
     "skills": ["Bootstrap", "CSS", "JS", "HTML"],
-    "demo": "assets/projects/TheTranscenders2.mp4",
+    "demo": "assets/projects/TheTranscenders.mp4",
     "source": "https://github.com/SimosTigkas/TheTranscenders"
   },
   {
@@ -12,7 +12,7 @@
     "imageSrc": "projects/UIdesignTraining.png",
     "description": "I created functional and visually appealing user interfaces by using HTML, CSS and by having the core UI design principles in mind. I built responsive layouts with images and adaptive navigation, while enhancing interactivity through subtle shadows gradients and animations.",
     "skills": ["CSS", "HTML", "JS"],
-    "demo": "assets/projects/UiDesignTraining2.mp4",
+    "demo": "assets/projects/UiDesignTraining.mp4",
     "source": "https://github.com/SimosTigkas/UI-Design-training"
   },
   {
@@ -20,7 +20,7 @@
     "imageSrc": "projects/fractals.png",
     "description": "In this project I created mesmerizing fractals, including the Julia set, the Mandelbrot set and the Burning Ship set. Additionally, it allowed me to combine mathematics with computer graphics and develop a deeper appreciation for visual programming.",
     "skills": ["C", "Makefile", "Graphics"],
-    "demo": "assets/projects/Fractals2.mp4",
+    "demo": "assets/projects/Fractals.mp4",
     "source": "https://github.com/SimosTigkas/2D-Fractals"
   }
 ]
