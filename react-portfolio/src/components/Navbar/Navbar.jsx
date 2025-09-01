@@ -40,28 +40,28 @@ export const Navbar = () => {
         <div className={styles.menu}>
             <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`} onClick={() => setMenuOpen(false)}>
                 <li>
-                    <a className={activeSection === "home" ? styles.active : ""} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} role="button">
-                    <AiOutlineHome size={25}/>
+                    <a className={activeSection === "home" ? styles.active : ""} onClick={(e) => {e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); window.history.pushState("", document.title, window.location.pathname + window.location.search);}} role="button">
+                        <AiOutlineHome size={25}/>
                     </a>
                 </li>
                 <li>
                     <a href="#about" className={activeSection === "about" ? styles.active : ""}>
-                    <TbUserSquare  size={25}/>
+                        <TbUserSquare  size={25}/>
                     </a>
                 </li>
                 <li>
                     <a href="#experience" className={activeSection === "experience" ? styles.active : ""}>
-                    <FiBookOpen size={25}/>
+                        <FiBookOpen size={25}/>
                     </a>
                 </li>
                 <li>
                     <a href="#projects" className={activeSection === "projects" ? styles.active : ""}>
-                    <GoProjectSymlink size={25}/>
+                        <GoProjectSymlink size={25}/>
                     </a>
                 </li>
                 <li>
                     <a href="#contact" className={activeSection === "contact" ? styles.active : ""}>
-                    <LuMessageSquareText size={25}/>
+                        <LuMessageSquareText size={25}/>
                     </a>
                 </li>
             </ul>
