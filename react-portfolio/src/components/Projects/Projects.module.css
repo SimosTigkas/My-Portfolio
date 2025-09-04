@@ -9,8 +9,8 @@
 }
 
 .title {
+    text-align: center;
     top: 10px;
-    margin-left: 45px;
     position: relative;
     font-size: 35px;
     font-weight: 700;
@@ -29,10 +29,14 @@
     width: 100%;
 }
 
+@media screen and (max-width: 950px) {
+    .title {
+        font-size: 30px;
+    }
+}
+
 @media screen and (max-width: 650px) {
     .title {
-        margin-left: 0;
-        text-align: center;
         font-size: 28px;
     }
 }

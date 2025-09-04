@@ -23,7 +23,7 @@
     "organisation": "Scrimba",
     "startDate": "July, 2025",
     "endDate": "July, 2025",
-    "experiences": ["Learned TypeScript fundamentals", "Typed props, state and functions in React"],
+    "experiences": ["Learned TypeScript fundamentals", "Typed props, state and functions in React", "Explored optional properties, utility types, unions, type narrowing and generics"],
     "imageSrc": "history/scrimba.png"
   },
   {

@@ -15,23 +15,20 @@ export const Navbar = () => {
         const handleScroll = () => {
         const sections = ["home", "about", "experience", "projects", "contact"];
         let current = "null";
+    
         sections.forEach((id) => {
             const section = document.getElementById(id);
             if (section) {
-            const rect = section.getBoundingClientRect();
-            if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
-                current = id;
-            }
+                const rect = section.getBoundingClientRect();
+                if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2)
+                    current = id;
             }
         });
         if (window.scrollY < 100)
             current = "home";
         if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 50)
             current = "contact";
-        
-        setActiveSection(current);
-        };
-
+        setActiveSection(current);};
         window.addEventListener("scroll", handleScroll);
         handleScroll();
         return () => window.removeEventListener("scroll", handleScroll);
