@@ -12,15 +12,14 @@ export const About = () => {
                     <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
                     <div className={styles.aboutItemText}>
                         <h3>Frontend Developer</h3>
-                        <p>I specialize in building responsive, accessible, and performance-driven web applications using React, JavaScript, and modern CSS. I focus on creating seamless user experiences across all devices.</p>
+                        <p>I specialize in building responsive, accessible and performance-driven web applications using React, JavaScript and modern CSS. I focus on creating seamless user experiences across all devices.</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
                     <div className={styles.aboutItemText}>
                         <h3>Software Developer</h3>
-                        <p>I enjoy solving complex problems and continuously learning new technologies. My goal is to write clean, efficient, and scalable code that not only works well but also enhances usability and long-term maintainability.</p>
-
+                        <p>I enjoy solving complex problems and continuously learning new technologies. My goal is to write clean, efficient and scalable code that not only works well but also enhances usability and long-term maintainability.</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
