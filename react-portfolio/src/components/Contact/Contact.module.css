@@ -15,7 +15,70 @@
     border-radius: 15px;
     width: 50%;
     box-sizing: border-box;
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 3px;
+  border-radius: 15px;
+  background: conic-gradient(from 225deg, hsl(39, 100%, 45%) 0deg, transparent 0deg);
+  -webkit-mask: 
+  linear-gradient(#fff 0 0) content-box, 
+  linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.container:hover::before {
+  opacity: 1;
+  animation: drawOutline .5s linear forwards;
+}
+
+@keyframes drawOutline {
+  0% {
+    background: conic-gradient(
+      from 270deg,
+      hsl(39,100%,45%) 0deg,
+      transparent 0deg
+    );
+  }
+  25% {
+    background: conic-gradient(
+      from 270deg,
+      hsl(39,100%,45%) 0deg 90deg,
+      transparent 90deg
+    );
+  }
+  /* 50% {
+    background: conic-gradient(
+      from 270deg,
+      hsl(39,100%,45%) 0deg 180deg,
+      transparent 180deg
+    );
+  } */
+  75% {
+    background: conic-gradient(
+      from 270deg,
+      hsl(39,100%,45%) 0deg 270deg,
+      transparent 270deg
+    );
+  }
+  100% {
+    background: conic-gradient(
+      from 270deg,
+      hsl(39,100%,45%) 0deg 360deg,
+      transparent 360deg
+    );
+  }
 }
 
 .container:target {
@@ -31,7 +94,7 @@
 .container:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;
-  box-shadow: 0px 4px 5px 0px gray;
+  /* box-shadow: 0px 4px 5px 0px gray; */
   cursor: pointer;
 }
 

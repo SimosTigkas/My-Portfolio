@@ -37,6 +37,7 @@
 }
 
 .aboutItem {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -46,7 +47,54 @@
     background-image: linear-gradient(90deg, rgba(165, 215,232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
     background-size: 0 100%;
     background-repeat: no-repeat;
-    transition: 0.4s ease-in-out;
+    transition: background-size 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+.aboutItem::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 3px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, hsl(39,100%,45%), rgba(255, 255, 255, 0));
+  pointer-events: none;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) border-box;
+  -webkit-mask-composite: xor;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-clip: content-box, border-box;
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) border-box;
+  mask-composite: exclude;
+  mask-repeat: no-repeat;
+  mask-clip: content-box, border-box;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.aboutItem:hover::before {
+  opacity: 1;
+  animation: drawOutline .4s linear forwards;
+}
+
+@keyframes drawOutline {
+  0% {
+    background: conic-gradient(
+      from 270deg,
+       0deg,
+      transparent 0deg
+    );
+  }
+  25% {
+    background: conic-gradient(
+      from 270deg,
+      hsl(39,100%,45%) 0deg 90deg,
+      transparent 90deg
+    );
+  }
 }
 
 .aboutItem:hover {
