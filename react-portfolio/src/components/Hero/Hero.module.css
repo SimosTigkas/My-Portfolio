@@ -67,6 +67,71 @@
     top: 78px;
 }
 
+.resumeBtn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 100px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.resumeBtn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 100px;
+    padding: 30px 82px;
+    background-color: rgb( 255, 255, 255);
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+    transition: opacity 1s, transform 0.5s;
+}
+
+.resumeBtn:hover,
+.resumeBtn:focus {
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.resumeBtn:hover::before {
+    opacity: 0.08;
+}
+
+.resumeBtn:focus::before {
+    opacity: 0.24;
+}
+
+.resumeBtn:hover:focus::before {
+    opacity: 0.3;
+}
+
+.resumeBtn:active {
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.resumeBtn:active::after {
+    opacity: 0.32;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0s;
+}
+
+.resumeBtn:disabled {
+    box-shadow: none;
+    cursor: initial;
+}
+
+.resumeBtn:disabled::before {
+    opacity: 0;
+}
+
+.resumeBtn:disabled::after {
+    opacity: 0;
+}
+
 .resumeBtn:hover {
     color: hsl(39, 100%, 45%);
 }
