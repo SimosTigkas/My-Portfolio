@@ -6,6 +6,7 @@
   width: max-content;
   display: block;
   padding: 0.7rem 1.7rem;
+  margin: 0 auto;
   z-index: 5;
   position: fixed;
   left: 50%;
@@ -67,11 +68,7 @@
 
 @media screen and (max-width: 830px) {
   .navbar {
-    width: auto;
-    height: auto;
     padding: 1% 2%;
-    align-items: center;
-    justify-content: space-evenly;
   }
   .menuItems {
     align-items: center;

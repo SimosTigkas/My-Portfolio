@@ -9,7 +9,7 @@
   padding: 18px 24px;
   max-width: 345px;
   transition: transform 0.3s ease-in-out;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .container::before {
@@ -91,6 +91,8 @@
 }
 
 .title {
+  color: hsl(39,100%,45%);
+  margin-top: 5px;
   font-size: 25px;
   font-weight: 700;
 }
@@ -177,5 +179,20 @@
 }
 
 .playButton:hover {
-    background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.8);
+}
+
+
+@media screen and (max-width: 650px) {
+  .title {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 16px;
+    height: auto;
+    width: 100%;
+  }
+  .skill {
+    font-size: 12px;
+  }
 }

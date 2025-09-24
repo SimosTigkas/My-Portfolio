@@ -1,22 +1,22 @@
 @import "../../vars.css";
 
 .container {
-    position: relative;
-    color: var(--color-text);
-    margin: 5% auto;
-    background-color: var(--color-secondary);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    padding: 1% 2%;
-    gap: 40px;
-    border-radius: 15px;
-    width: 50%;
-    box-sizing: border-box;
-    transition: transform 0.3s ease-in-out;
-    overflow: hidden;
+  position: relative;
+  color: var(--color-text);
+  margin: 5% auto;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 1% 2%;
+  gap: 40px;
+  border-radius: 15px;
+  width: 50%;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
 }
 
 .container::before {
@@ -82,7 +82,7 @@
 }
 
 .container:target {
-    animation: scalePulse 2.5s ease;
+  animation: scalePulse 2.5s ease;
 }
 
 @keyframes scalePulse {
@@ -99,104 +99,105 @@
 }
 
 .text h2 {
-    font-size: 33px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
+  color: hsl(39,100%,45%);
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
 }
 
 .text p {
-    font-size: 28px;
-    font-weight: 400;
-    letter-spacing: 1px;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .links {
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    list-style: none;
-    gap: 26px;
-    font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  list-style: none;
+  gap: 26px;
+  font-size: 35px;
 }
 
 .link {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  vertical-align: middle;
 }
 
 .links li a {
-    background: var(--color-dark);
-    border-radius: 45px;
-    color: var(--color-text);
-    text-decoration: none;
-    display: flex;
-    vertical-align: middle;
-    height: 3.5rem;
-    width: 3.5rem;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+  background: var(--color-dark);
+  border-radius: 45px;
+  color: var(--color-text);
+  text-decoration: none;
+  display: flex;
+  vertical-align: middle;
+  height: 3.5rem;
+  width: 3.5rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .links li a:hover {
-    background-color: hsl(39, 100%, 45%);
-    border-radius: 45px;
-    transform: scale(1.2);
+  background-color: hsl(39, 100%, 45%);
+  border-radius: 45px;
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 1190px) {
-    .container {
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        padding: 5%;
-        width: 30%;
-        min-width: 211px;
-    }
-    .links {
-        flex-direction: row;
-        justify-content: center;
-        gap: 16px;
-    }
-    .links li a {
-        height: 3rem;
-        width: 3rem;
-    }
-    .text h2{
-        font-size: 30px;
-        margin-top: -15px;
-        text-align: center;
-    }
-    .text p {
-        font-size: 25px;
-        text-align: center;
-    }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 5%;
+    width: 30%;
+    min-width: 211px;
+  }
+  .links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+  }
+  .links li a {
+    height: 3rem;
+    width: 3rem;
+  }
+  .text h2{
+    font-size: 30px;
+    margin-top: -15px;
+    text-align: center;
+  }
+  .text p {
+    font-size: 25px;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 575px) {
-    .container {
-        padding: 20px 5%;
-        width:45%;
-        gap:15px;
-        min-width: 200px;
-    }
-    .text h2 {
-        font-size: 17px;
-        margin-top: -15px;
-        text-align: center;
-    }
-    .text p {
-        font-size: 15px;
-        text-align: center;
-    }
-    .links {
-        flex-direction: row;
-        gap: 12px;
-        justify-content: center;
-    }
-    .links li a {
-        height: 3rem;
-        width: 3rem;
-    }
+  .container {
+    padding: 20px 5%;
+    width:45%;
+    gap:15px;
+    min-width: 200px;
+  }
+  .text h2 {
+    font-size: 17px;
+    margin-top: -15px;
+    text-align: center;
+  }
+  .text p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .links {
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+  }
+  .links li a {
+    height: 3rem;
+    width: 3rem;
+  }
 }

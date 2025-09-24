@@ -32,7 +32,7 @@
     "organisation": "University of Patras (Greece)",
     "startDate": "Oct, 2015",
     "endDate": "Sept, 2021",
-    "experiences": ["Object-oriented programming using C++", "Programming with Python", "Data Structures and Algorithms"],
+    "experiences": ["Object-oriented programming using C++", "Programming with Python", "Algorithms and Complexity", "Data Structures and Algorithms"],
     "imageSrc": "history/math.png"
   }
 ]
