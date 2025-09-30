@@ -29,7 +29,15 @@
   mask-composite: exclude;
   pointer-events: none;
   opacity: 0;
+  z-index: -1;
 }
+
+.linkWrapper {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 
 .container:hover::before {
   opacity: 1;
