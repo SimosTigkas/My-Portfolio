@@ -8,20 +8,28 @@
     "source": "https://github.com/SimosTigkas/TheTranscenders"
   },
   {
-    "title": "UI-Design Training",
-    "imageSrc": "projects/UiDesignTraining.png",
-    "description": "I created functional and visually appealing user interfaces by using HTML, CSS and by having the core UI design principles in mind. I built responsive layouts with images and adaptive navigation, while enhancing interactivity through subtle shadows gradients and animations.",
-    "skills": ["CSS", "HTML", "JS"],
-    "demo": "assets/projects/UiDesignTraining.mp4",
-    "source": "https://github.com/SimosTigkas/UI-Design-training"
-  },
-  {
     "title": "Smartwatch Landing Page",
     "imageSrc": "projects/FigmaEssentials.png",
     "description": "Designed in Figma, focusing on visual hierarchy, usability and responsive design. This project shows mastery of UI and UX principles through the thoughtful structure of layout, consistent typography and engaging color palette. The emphasis is on clarity, conversion and an appealing product.",
     "skills": ["UX", "UI", "Figma"],
     "demo": "assets/projects/FigmaEssentials.mp4",
     "source": "https://www.figma.com/site/AD3N3dyidE3WOMvj2ZPGCS/Simos-Smart-Watches?node-id=20-435&t=jdePEalJFq4lXyZy-0"
+  },
+  {
+    "title": "Soil Health Dashboard",
+    "imageSrc": "projects/SoilHealthDashboard.png",
+    "description": "A dashboard that visualizes soil health metrics. The interactive chart was built with Chart.js, dynamic metric toggling and summary cards of current, minimum and maximum values. The emphasis is in state-driven UI updates, reusable components and E2E testing with Cypress to ensure reliable user interactions.",
+    "skills": ["React", "CSS", "HTML", "Cypress"],
+    "demo": "assets/projects/SoilHealthDashboard.mp4",
+    "source": "https://github.com/SimosTigkas/Soil-Health-Dashboard"
+  },
+  {
+    "title": "UI-Design Training",
+    "imageSrc": "projects/UiDesignTraining.png",
+    "description": "I created functional and visually appealing user interfaces by using HTML, CSS and by having the core UI design principles in mind. I built responsive layouts with images and adaptive navigation, while enhancing interactivity through subtle shadows gradients and animations.",
+    "skills": ["CSS", "HTML", "JS"],
+    "demo": "assets/projects/UiDesignTraining.mp4",
+    "source": "https://github.com/SimosTigkas/UI-Design-training"
   },
   {
     "title": "2D Fractals",
