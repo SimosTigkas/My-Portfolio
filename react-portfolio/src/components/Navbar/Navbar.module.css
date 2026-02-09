@@ -11,7 +11,7 @@
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  top: 0.6rem;
+  top: 1.5rem;
   display: flex;
   gap: 0.8rem;
   border-radius: 3rem;
