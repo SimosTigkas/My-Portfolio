@@ -11,7 +11,7 @@
     "title": "DOPC",
     "imageSrc": "projects/DeliveryOrderPriceCalculator.png",
     "description": "A Delivery Order Price Calculator that is based on cart value, user location and venue delivery pricing rules.  Built with proper labels, ARIA attributes, edge-case handling, instant validation, loading and error states, localStorage persistence and browser geolocation to ensure a smooth and reliable UX.",
-    "skills": ["React", "TypeScript", "CSS", "HTML"],
+    "skills": ["React", "TS", "CSS", "HTML"],
     "demo": "assets/projects/DeliveryOrderPriceCalculator.mp4",
     "source": "https://github.com/SimosTigkas/Delivery-Order-Price-Calculator"
   },
