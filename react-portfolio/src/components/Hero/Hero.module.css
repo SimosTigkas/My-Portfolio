@@ -21,7 +21,6 @@
     flex-direction: column;
     align-items: flex-start;
     color: var(--color-text);
-    animation: fadeInUp 1.6s ease-out;
     z-index: 1;
 }
 

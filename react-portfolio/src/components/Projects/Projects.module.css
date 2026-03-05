@@ -20,7 +20,6 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
-    animation: fadeInUp 1.6s ease-out;
 }
 
 .projects {
@@ -31,7 +30,6 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
-    animation: fadeInUp 1.6s ease-out;
     width: 100%;
 }
 

@@ -96,14 +96,12 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-  animation: fadeInUp 1.6s ease-out;
 }
 
 .text p {
   font-size: 28px;
   font-weight: 400;
   letter-spacing: 1px;
-  animation: fadeInUp 1.6s ease-out;
 }
 
 .links {
@@ -120,7 +118,6 @@
   align-items: center;
   justify-content: space-evenly;
   vertical-align: middle;
-  animation: fadeInUp 1.6s ease-out;
 }
 
 .links li a {

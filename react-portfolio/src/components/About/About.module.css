@@ -24,7 +24,6 @@
   margin-bottom: 19px;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-  animation: fadeInUp 1.6s ease-out;
   top: -25px;
 }
 
@@ -53,7 +52,6 @@
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: background-size 0.4s ease-in-out;
-  animation: fadeInUp 1.6s ease-out;
   overflow: hidden;
 }
 

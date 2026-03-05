@@ -19,7 +19,6 @@
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
-  animation: fadeInUp 1.6s ease-out;
   text-transform: uppercase;
 }
 
@@ -28,7 +27,6 @@
   margin-left: 45px;
   grid-template-rows: max-content;
   justify-content: space-evenly;
-  animation: fadeInUp 1.6s ease-out;
   margin-top: 14px;
 }
 
@@ -38,7 +36,6 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 37px;
-  animation: fadeInUp 1.6s ease-out;
   margin-bottom: 3%;
 }
 
@@ -103,7 +100,6 @@
   background: #19376d;
   background: linear-gradient(90deg, #19376d 0%,rgba(25, 55, 109, 0) 100%);
   border-radius: 10px;
-  animation: fadeInUp 1.6s ease-out;
   padding: 24px;
   overflow: hidden;
 }

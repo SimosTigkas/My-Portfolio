@@ -96,7 +96,6 @@
   object-fit:cover;
   border-radius: 15px;
   opacity: 0.9;
-  animation: fadeInUp 1.6s ease-out;
 }
 
 .title {
@@ -104,7 +103,6 @@
   margin-top: 5px;
   font-size: 25px;
   font-weight: 700;
-  animation: fadeInUp 1.6s ease-out;
 }
 
 .description {
@@ -113,7 +111,6 @@
   font-weight: 400;
   height: 252px;
   width: 297px;
-  animation: fadeInUp 1.6s ease-out;
 }
 
 .skills {
@@ -134,7 +131,6 @@
   background: var(--color-dark);
   padding: 2px 12px;
   text-align: center;
-  animation: fadeInUp 1.6s ease-out;
 }
 
 .coverImage {
