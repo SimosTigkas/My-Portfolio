@@ -14,7 +14,7 @@ export const Navbar = () => {
     useEffect(() => {
         const handleScroll = () => {
         const sections = ["home", "about", "experience", "projects", "contact"];
-        let current = "null";
+        let current = null;
     
         sections.forEach((id) => {
             const section = document.getElementById(id);
@@ -37,7 +37,7 @@ export const Navbar = () => {
         <div className={styles.menu}>
             <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`} onClick={() => setMenuOpen(false)}>
                 <li>
-                    <a className={activeSection === "home" ? styles.active : ""} onClick={(e) => {e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); window.history.pushState("", document.title, window.location.pathname + window.location.search);}} role="button">
+                    <a href="#home" className={activeSection === "home" ? styles.active : ""}>
                         <AiOutlineHome size={25}/>
                     </a>
                 </li>

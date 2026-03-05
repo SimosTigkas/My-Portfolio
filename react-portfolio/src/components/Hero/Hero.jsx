@@ -4,7 +4,7 @@ import styles from "./Hero.module.css";
 import CV from "../../file/hero/CV.pdf";
 
 export const Hero = () => {
-    return <section className={styles.container}>
+    return <section id="home" className={styles.container}>
         <div className={styles.content}>
             <h1 className={styles.title}>Hi, I'm Simos!!</h1>
             <p className={styles.description}>A frontend developer with a passion for UI/UX design. I love turning ideas into interactive experiences and I’m excited to bring that creativity to my next project.</p>

@@ -9,6 +9,11 @@
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
+    scroll-margin-top: 100px;
+}
+
+.container:target {
+    animation: fadeInUp 2s ease-out;
 }
 
 .content {

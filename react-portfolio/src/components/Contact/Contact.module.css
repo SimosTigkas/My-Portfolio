@@ -15,8 +15,6 @@
   border-radius: 15px;
   width: 50%;
   box-sizing: border-box;
-  transition: transform 0.3s ease-in-out;
-  animation: fadeInUp 1.6s ease-out;
   overflow: hidden;
 }
 
@@ -83,13 +81,12 @@
 }
 
 .container:target {
-  animation: scalePulse 2.5s ease;
+  animation: fadeInUp 2s ease;
 }
 
 .container:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;
-  /* box-shadow: 0px 4px 5px 0px gray; */
   cursor: pointer;
 }
 
@@ -144,16 +141,10 @@
   transform: scale(1.2);
 }
 
-@keyframes scalePulse {
-  0% { transform: scale(1);}
-  50% { transform: scale(1.06); box-shadow: 0px 4px 5px 0px gray;}
-  100% { transform: scale(1);}
-}
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(16px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;

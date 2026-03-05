@@ -65,7 +65,6 @@
   color: hsl(39, 100%, 45%);
 }
 
-
 @media screen and (max-width: 830px) {
   .navbar {
     padding: 1% 2%;
