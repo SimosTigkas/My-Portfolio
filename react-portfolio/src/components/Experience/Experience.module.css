@@ -220,7 +220,7 @@
     gap: 34px;
   }
   .title {
-    font-size: 32px;
+    font-size: 30px;
   }
   .skills {
     width: 100%;
@@ -237,6 +237,12 @@
     flex-direction: row;
     width: auto;
     height: auto;
+  }
+  .historyItemDetails p {
+    font-size: 15px;
+  }
+  .historyItemDetails li {
+    font-size: 17px;
   }
 }
 
