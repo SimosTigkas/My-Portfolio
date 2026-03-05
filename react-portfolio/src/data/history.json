@@ -9,13 +9,13 @@
     "imageSrc": "history/hive.png"
   },
   {
-    "intro": "https://scrimba.com/courses",
-    "role": "Learn UI Design Student",
-    "organisation": "Scrimba",
-    "startDate": "June, 2025",
-    "endDate": "June, 2025",
-    "experiences": ["Learned the UI Design principles", "Explored advanced design techniques", "Designed interfaces that adapt seamlessly across mobile, tablet and desktop screens"],
-    "imageSrc": "history/scrimba.png"
+    "intro": "https://bringyourownlaptop.com/",
+    "role": "Figma Essentials Student",
+    "organisation": "BYOL",
+    "startDate": "Sept, 2025",
+    "endDate": "Oct, 2025",
+    "experiences": ["UI and UX principles like wireframing, typography and color styles", "Reusable design systems with components, variants and libraries", "Prototypes with animations and responsive layouts"],
+    "imageSrc": "history/BYOL.png"
   },
   {
     "intro": "https://scrimba.com/courses",
