@@ -32,12 +32,12 @@
     "source": "https://github.com/SimosTigkas/Soil-Health-Dashboard"
   },
   {
-    "title": "UI-Design Training",
-    "imageSrc": "projects/UiDesignTraining.png",
-    "description": "I created functional and visually appealing user interfaces by using HTML, CSS and by having the core UI design principles in mind. I built responsive layouts with images and adaptive navigation, while enhancing interactivity through subtle shadows gradients and animations.",
-    "skills": ["CSS", "HTML", "JS"],
-    "demo": "assets/projects/UiDesignTraining.mp4",
-    "source": "https://github.com/SimosTigkas/UI-Design-training"
+    "title": "RPS-League",
+    "imageSrc": "projects/RPS-League.png",
+    "description": "A full-stack app that displays a Rock-Paper-Scissors League. The backend handles data processing, winner calculation and leaderboard ranking. The frontend provides five distinct views with defensive handling for error states, empty states, input validation and a design system using CSS Modules.",
+    "skills": ["React", "TypeScript", "Node.js", "Express"],
+    "demo": "assets/projects/RPS-League.mp4",
+    "source": "https://github.com/SimosTigkas/Rock-Paper-Scissors-League"
   },
   {
     "title": "2D Fractals",
