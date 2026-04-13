@@ -1,11 +1,11 @@
 [
   {
-    "title": "The Transcenders",
-    "imageSrc": "projects/TheTranscenders.png",
-    "description": "I refined my frontend skills by building responsive and interactive interfaces from scratch. I learned how to handle dynamic updates and create a smooth, user-friendly experience. This project also sharpened my problem-solving skills by pushing me to optimize performance.",
-    "skills": ["Bootstrap", "CSS", "JS", "HTML"],
-    "demo": "assets/projects/TheTranscenders.mp4",
-    "source": "https://github.com/SimosTigkas/TheTranscenders"
+    "title": "RPS-League",
+    "imageSrc": "projects/RPS-League.png",
+    "description": "A full-stack app that displays a Rock-Paper-Scissors League. The backend handles data processing, winner calculation and leaderboard ranking. The frontend provides five distinct views with defensive handling for error states, empty states, input validation and consistent design system using CSS modules.",
+    "skills": ["React", "TS", "Node.js", "Express"],
+    "demo": "assets/projects/RPS-League.mp4",
+    "source": "https://github.com/SimosTigkas/Rock-Paper-Scissors-League"
   },
   {
     "title": "DOPC",
@@ -14,6 +14,14 @@
     "skills": ["React", "TS", "CSS", "HTML"],
     "demo": "assets/projects/DeliveryOrderPriceCalculator.mp4",
     "source": "https://github.com/SimosTigkas/Delivery-Order-Price-Calculator"
+  },
+  {
+    "title": "The Transcenders",
+    "imageSrc": "projects/TheTranscenders.png",
+    "description": "I refined my frontend skills by building responsive and interactive interfaces from scratch. I learned how to handle dynamic updates and create a smooth, user-friendly experience. This project also sharpened my problem-solving skills by pushing me to optimize performance.",
+    "skills": ["Bootstrap", "CSS", "JS", "HTML"],
+    "demo": "assets/projects/TheTranscenders.mp4",
+    "source": "https://github.com/SimosTigkas/TheTranscenders"
   },
   {
     "title": "Smartwatch Landing Page",
@@ -30,14 +38,6 @@
     "skills": ["React", "CSS", "HTML", "Cypress"],
     "demo": "assets/projects/SoilHealthDashboard.mp4",
     "source": "https://github.com/SimosTigkas/Soil-Health-Dashboard"
-  },
-  {
-    "title": "RPS-League",
-    "imageSrc": "projects/RPS-League.png",
-    "description": "A full-stack app that displays a Rock-Paper-Scissors League. The backend handles data processing, winner calculation and leaderboard ranking. The frontend provides five distinct views with defensive handling for error states, empty states, input validation and a design system using CSS Modules.",
-    "skills": ["React", "TypeScript", "Node.js", "Express"],
-    "demo": "assets/projects/RPS-League.mp4",
-    "source": "https://github.com/SimosTigkas/Rock-Paper-Scissors-League"
   },
   {
     "title": "2D Fractals",
